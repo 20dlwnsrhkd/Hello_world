@@ -1,8 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk"> // 닷넷 sdk 사용
-<PropertyGroup>
-<OutputType>Exe</OutputType> // 실행 파일 형태
-<TargetFramework>net6.0</TargetFramework> // 닷넷 버전
-<ImplicitUsings>enable</ImplicitUsings> // global using 사용 유무
-<Nullable>enable</Nullable> // null 참조 허용
-</PropertyGroup>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
 </Project>
