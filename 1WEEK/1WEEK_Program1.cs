@@ -5,7 +5,7 @@ public class WEEK_PROGRAM1
      static void Main()
         {
             string residentNumber;
-
+ 
             do
             {
                 Console.Write("주민등록번호를 입력하세요 (12자리 또는 13자리): ");
