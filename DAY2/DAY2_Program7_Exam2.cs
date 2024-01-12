@@ -1,7 +1,7 @@
 namespace C_SHARP_PROJECT;
 public class DAY2_PROGRAM7_1
 {
-    static void Main(String []args){
+    static void Main7_2(String []args){
         string passward="123123";
         int count=0;
         while(count<=5){
