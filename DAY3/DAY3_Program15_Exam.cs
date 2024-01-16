@@ -1,4 +1,4 @@
-/*namespace C_SHARP_PROJECT;
+namespace C_SHARP_PROJECT;
 public class DAY3_Program9_Exam2
 {
     static string[] name;
@@ -13,10 +13,11 @@ public class DAY3_Program9_Exam2
     {
         DAY3_Program9_Exam2 start = new DAY3_Program9_Exam2();
         student_inout2 st = new student_inout2();
+        student_inout2.student_login st2 = new student_inout2.student_login();
         while(true){
         Console.WriteLine("로그인 필요, 패스워드를 입력하세요 : ");
         pass_input = Console.ReadLine();
-        if(st.get_password() == pass_input){
+        if(st2.get_password() == pass_input){
             st.input_score(name, score);
             break;
         }
@@ -27,10 +28,12 @@ public class DAY3_Program9_Exam2
     }
 }
 
-class student_inout2{
-    private string password = "123123";
-    public string get_password(){
-        return password;
+public class student_inout2{
+    public class student_login{
+        private string password = "123123";
+        public string get_password(){
+            return password;
+        }
     }
     public void input_score(string[] name, int[] score)
     {
@@ -74,4 +77,4 @@ class student_inout2{
 
                 Console.WriteLine("학생 3명의 평균 점수는 {0}점", score.Average());
     }
-}*/
+}
