@@ -2,7 +2,7 @@ namespace C_SHARP_PROJECT;
 public class WEEK_PROGRAM1
 {
     
-     static void Main()
+     static void Main31()
         {
             string residentNumber;
  
